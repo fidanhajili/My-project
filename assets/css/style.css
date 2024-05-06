@@ -1,0 +1,76 @@
+:root {
+    --orange-rengi: #FF8A56;
+
+}
+
+/* header basladi */
+
+.basliq {
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-linkler a {
+    text-decoration: none;
+    color: #222;
+    margin-right: 5px;
+}
+
+.nav-linkler {
+    display: none;
+}
+
+
+
+/* header bitdi */
+
+
+
+.introduction .intro-left-side h1 span {
+    color: var(--orange-rengi)
+}
+
+.introduction .intro-right-sideimg {
+    width: 300px;
+}
+
+.intro-left-side h1 {
+    font-size: 38px;
+}
+
+@media(min-width:768px) {
+    .introduction {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .introduction .intro-left-side {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+    .introduction .intro-right-side img {
+        width: 300px;
+    }
+
+    .nav-linkler {
+        display: block;
+    }
+
+    .fa-bars {
+        display: none;
+    }
+}
+
+@media(min-width:992px) {
+    .introduction .intro-left-side h1 {
+        font-size: 72px;
+        font-weight: 700;
+    }
+
+    .introduction .intro-right-side img {
+        width: 500px;
+    }
+}
